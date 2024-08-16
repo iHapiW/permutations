@@ -42,6 +42,7 @@ fn _print_vec<T>(vec: &Vec<T>)
     print!("]");
     io::stdout().flush().unwrap();
 }
+
 pub fn print_perms<T>(perms: &HashSet<Vec<T>>)
     where T: std::fmt::Display
 {
